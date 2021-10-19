@@ -3,3 +3,35 @@ html, body {
     padding: 0;
     font-size: 14px;
 }
+
+:root {
+    --banner-height: 480px;
+    --primary-color: #4cbbc2;
+}
+
+
+header {
+    height: var(--banner-height);
+    background-image: url("../image/banner.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title {
+    width: 100%;
+    max-width: 720px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+
+.title-main {
+    padding: 20px;
+    background-color: rgba(76,187, 194, .54);
+    text-align: center;
+    color: #FFFFFF;
+}
